@@ -111,7 +111,7 @@ const Posts: React.FC = () => {
     setCurrentPage(1);
   };
 
-  const handlePaginate = (event: React.ChangeEvent<unknown>, value: number) => {
+  const handlePaginate = (_: React.ChangeEvent<unknown>, value: number) => {
     setCurrentPage(value);
   };
 
